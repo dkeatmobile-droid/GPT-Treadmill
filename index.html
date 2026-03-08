@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>StrideScale Tracker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>StrideScale</h1>
+<p>Weight & Treadmill Tracker</p>
+
+<div class="card">
+
+<h2>Add Weekly Weight</h2>
+
+<input type="number" id="weightInput" placeholder="Enter weight (kg)">
+<button onclick="addWeight()">Save</button>
+
+</div>
+
+<div class="card">
+
+<h2>Stats</h2>
+
+<p>Current Weight: <span id="currentWeight">-</span></p>
+<p>BMI: <span id="bmi">-</span></p>
+<p>Change: <span id="change">-</span></p>
+
+</div>
+
+<div class="card">
+
+<h2>Weight Log</h2>
+
+<ul id="weightList"></ul>
+
+</div>
+
+<div class="card">
+
+<h2>Treadmill Plan (Beginner)</h2>
+
+<ul>
+<li>Week 1: 10 mins x 4 days</li>
+<li>Week 2: 15 mins x 4 days</li>
+<li>Week 3: 20 mins x 4 days</li>
+<li>Week 4: 20 mins x 5 days</li>
+<li>Week 5: 25 mins x 5 days</li>
+<li>Week 6: 30 mins x 5 days</li>
+</ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
