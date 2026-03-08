@@ -1,0 +1,47 @@
+body{
+font-family: Arial;
+background:#0f172a;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+margin:20px auto;
+width:350px;
+border-radius:12px;
+box-shadow:0 10px 20px rgba(0,0,0,0.4);
+}
+
+input{
+padding:10px;
+width:200px;
+border-radius:6px;
+border:none;
+margin-right:10px;
+}
+
+button{
+padding:10px 20px;
+border:none;
+border-radius:6px;
+background:#6366f1;
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+background:#818cf8;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
